@@ -8,9 +8,13 @@ import './index.css';
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="flex h-screen bg-gray-50">
-        <Sidebar />
-        <MainComponent />
+      <div className="min-h-screen bg-gray-50 flex flex-col md:flex-row">
+        <div className="w-full md:w-64 p-4">
+          <Sidebar />
+        </div>
+        <div className="flex-1 overflow-auto">
+          <MainComponent />
+        </div>
       </div>
     </Router>
   );
