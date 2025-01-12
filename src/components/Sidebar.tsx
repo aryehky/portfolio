@@ -34,7 +34,7 @@ const Sidebar: React.FC = () => {
   ];
 
   return (
-    <div className="w-64 bg-white shadow-lg rounded-lg p-6 sticky top-6">
+    <div className="w-64 bg-white shadow-lg rounded-lg p-6 sticky top-0 max-h-screen overflow-y-auto">
       {/* Profile Section */}
       <div className="text-center mb-8">
         <img
@@ -100,7 +100,6 @@ const Sidebar: React.FC = () => {
               }`
             }
           >
-           {/*} <item.icon className="h-5 w-5" />*/}
             {item.name}
           </NavLink>
         ))}
