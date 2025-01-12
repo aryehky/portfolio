@@ -85,15 +85,18 @@ const Overview: React.FC = () => {
       {/* Overview content */}
       <div className="space-y-4">
         <p className="text-gray-700 leading-relaxed">
-        Hello! My name is Ky, and I'm a full-stack software engineer from Seattle, specializing in TypeScript, React, Python, SwiftUI, Scala, Java, and blockchain technologies. My expertise spans both frontend and backend development, as well as blockchain integration, allowing me to build scalable, high-performance applications and distributed systems.
+        Hello! My name is Kayenat Aryeh, a full-stack software engineer with over 3 years of experience in building modern web applications and interfaces. I specialize in JavaScript (React.js), Node.js, and cloud-based back-end services on AWS. My work spans full-stack development, data and genomics integration, and security compliance. I am skilled in writing clear documentation and providing responsive user support. My academic background includes a Master's in Pharmaceutical Sciences, focusing on genomic data analysis and personalized medicine, which directly informs my approach to building data exploration tools.
         </p>
         
         <div className="flex flex-wrap gap-2">
-          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Blockchain</span>
-          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">React</span>
+        <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Javascript</span>
+        <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">React</span>
           <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">TypeScript</span>
-          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Solidity</span>
-          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Web3</span>
+          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Node.js</span>
+          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">SQL</span>
+          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">R</span>
+          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">AWS</span>
+          <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Python</span>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
