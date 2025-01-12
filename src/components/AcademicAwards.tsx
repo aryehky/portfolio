@@ -1,4 +1,5 @@
 import React from 'react';
+import { TrophyIcon } from '@heroicons/react/24/solid';
 
 interface Award {
   title: string;
@@ -19,17 +20,24 @@ const awards: Award[] = [
   { title: "Dougherty Foundation Scholarship", date: "2017 - 2018" }
 ];
 
+const getFontSizeClass = (title: string) => {
+  if (title.length > 60) return 'text-sm';
+  if (title.length > 40) return 'text-base';
+  return 'text-lg';
+};
+
 const AcademicAwards: React.FC = () => {
   return (
-    <div className="space-y-4">
-      <h2 className="text-2xl font-bold mb-6">Academic Awards</h2>
-      <div className="grid gap-4">
+    <div className="space-y-6">
+      <h2 className="text-3xl font-bold mb-8 text-center">Academic Awards</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {awards.map((award, index) => (
-          <div key={index} className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
-            <div className="flex justify-between items-baseline">
-              <h3 className="text-lg font-semibold text-gray-900">{award.title}</h3>
-              <span className="text-sm text-gray-500">{award.date}</span>
+          <div key={index} className="relative bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow border border-gray-200">
+            <TrophyIcon className="absolute top-2 right-2 h-8 w-8 text-yellow-500" />
+            <div className="mb-4 pr-10">
+              <h3 className={`font-semibold text-gray-900 ${getFontSizeClass(award.title)}`}>{award.title}</h3>
             </div>
+            <span className="text-sm text-gray-500">{award.date}</span>
           </div>
         ))}
       </div>
@@ -37,4 +45,4 @@ const AcademicAwards: React.FC = () => {
   );
 };
 
-export default AcademicAwards; 
+export default AcademicAwards;
