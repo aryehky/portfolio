@@ -40,6 +40,7 @@ const Education: React.FC = () => {
 
   return (
     <div className="space-y-6">
+      <h2 className="text-3xl font-bold mb-8 text-center">Education</h2>
       {education.map((edu, index) => (
         <div key={index} className="bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
           <div className="flex items-center gap-4 mb-4">
