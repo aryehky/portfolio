@@ -8,12 +8,14 @@ import Projects from './Projects';
 import AcademicAwards from './AcademicAwards';
 import Organizations from './Organizations';
 import Certifications from './Certifications';
+import Skills from './Skills';
 
 const MainComponent: React.FC = () => {
   return (
     <main className="flex-1 p-6 overflow-auto">
       <Routes>
         <Route path="/" element={<Overview />} />
+        <Route path="/skills" element={<Skills />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
