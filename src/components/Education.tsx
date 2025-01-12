@@ -10,36 +10,17 @@ const Education: React.FC = () => {
       date: "DECEMBER 2024",
       location: "SEATTLE, WA",
       details: [
-        "Graduate Research Assistant in Department of Pharmaceutics",
-        "Thesis: Investigating nephrotoxic effects of Cyclosporine A and Voclosporin on proximal tubule epithelial cells",
-        "Research in RNA sequencing, microphysiological systems, and drug metabolism",
-        "Focus on genomic data analysis and personalized medicine"
+        "Research focused on genomic data analysis, drug-drug interactions, and personalized medicine, providing domain insights directly applicable to building genomic data exploration tools."
       ]
     },
     {
-      school: "TREASURE",
-      logo: `${process.env.PUBLIC_URL}/images/treasureicon.png`,
-      degree: "SOLIDITY WEB3 DEVELOPER",
-      date: "JANUARY 2024 - DECEMBER 2024",
-      location: "REMOTE",
+      school: "FLATIRON SCHOOL",
+      logo: `https://res.cloudinary.com/storagemanagementcontainer/image/upload/v1736651851/portfolio/flatiron-logo_zdpvzv.png`,
+      degree: "SOFTWARE ENGINEERING",
+      date: "NOVEMBER 2020",
+      location: "",
       details: [
-        "Designed and deployed decentralized applications and smart contracts",
-        "Integrated front-end interfaces with Solidity-based smart contracts using ethers.js and web3.js",
-        "Implemented OpenZeppelin standards for IPFS-backed NFTs",
-        "Experience with NFT and DeFi protocols across multiple Ethereum test networks"
-      ]
-    },
-    {
-      school: "PARADES",
-      logo: `${process.env.PUBLIC_URL}/images/paradessquare.png`,
-      degree: "SOFTWARE ENGINEER",
-      date: "SEPTEMBER 2022 - SEPTEMBER 2023",
-      location: "REMOTE",
-      details: [
-        "Built RESTful APIs using Python (Flask) with PostgreSQL and Redis/Celery integration",
-        "Implemented CI/CD pipelines and AWS services (EC2, S3, RDS) for deployments",
-        "Developed React.js UI components for data visualization tools",
-        "Applied OAuth 2.0 and SSL/TLS security practices for sensitive data handling"
+        "Intensive training in full-stack development, reinforcing modern web development practices and agile methodologies."
       ]
     },
     {
@@ -52,8 +33,7 @@ const Education: React.FC = () => {
         "B.A. Philosophy with Ethics Emphasis - College of Social and Behavioral Sciences",
         "B.S. Molecular and Cellular Biology - College of Science",
         "Minor in Computer Science",
-        "Minor in Persian",
-        "Research Scientist in Department of Molecular and Cellular Biology (2016-2019)"
+        "Minor in Persian"
       ]
     }
   ];
