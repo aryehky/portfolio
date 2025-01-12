@@ -38,7 +38,7 @@ const Overview: React.FC = () => {
           {/* Social Links */}
           <div className="flex gap-3">
             <a 
-              href="https://github.com/mollybeach" 
+              href="https://github.com/kyaryeh" 
               target="_blank" 
               rel="noopener noreferrer"
               className="transition-transform hover:scale-110"
@@ -50,7 +50,7 @@ const Overview: React.FC = () => {
               />
             </a>
             <a 
-              href="https://www.linkedin.com" 
+              href="https://www.linkedin.com/in/kyaryeh" 
               target="_blank" 
               rel="noopener noreferrer"
               className="transition-transform hover:scale-110"
