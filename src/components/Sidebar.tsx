@@ -48,7 +48,7 @@ const Sidebar: React.FC = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-3 mb-6">
           <a 
-            href="https://github.com/mollybeach" 
+            href="https://github.com/aryehky" 
             target="_blank" 
             rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
@@ -60,7 +60,7 @@ const Sidebar: React.FC = () => {
             />
           </a>
           <a 
-            href="https://www.linkedin.com" 
+            href="https://www.linkedin.com/in/kyaryeh" 
             target="_blank" 
             rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
