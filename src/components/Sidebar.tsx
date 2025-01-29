@@ -34,11 +34,7 @@ const Sidebar: React.FC = () => {
   ];
 
   return (
-<<<<<<< HEAD
     <div className="w-64 bg-white shadow-lg rounded-lg p-6 sticky top-6 font-serif">
-=======
-    <div className="w-64 bg-white shadow-lg rounded-lg p-6 sticky top-0 max-h-screen overflow-y-auto">
->>>>>>> e1b8fd17019137b03776a92e2fce023aa95ef91f
       {/* Profile Section */}
       <div className="text-center mb-8">
         <img
@@ -64,11 +60,7 @@ const Sidebar: React.FC = () => {
             />
           </a>
           <a 
-<<<<<<< HEAD
-            href="https://www.linkedin.com/in/ky-aryeh" 
-=======
             href="https://www.linkedin.com/in/kyaryeh" 
->>>>>>> e1b8fd17019137b03776a92e2fce023aa95ef91f
             target="_blank" 
             rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
