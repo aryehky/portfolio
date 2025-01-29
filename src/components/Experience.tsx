@@ -65,7 +65,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     company: "UNIVERSITY OF WASHINGTON",
-    logo: `${process.env.PUBLIC_URL}/images/uwcrestsquare.png`,
+    logo: "/images/uwcrestsquare.png",
     roles: [
       {
         title: "GRADUATE RESEARCH ASSISTANT",
