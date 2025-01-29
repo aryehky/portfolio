@@ -87,7 +87,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     company: "VIRGINIA COMMONWEALTH UNIVERSITY",
-    logo: `${process.env.PUBLIC_URL}/images/vcu.png`,
+    logo: `https://res.cloudinary.com/storagemanagementcontainer/image/upload/v1736720703/portfolio/vcu-logo_woha55.svg`,
     roles: [
       {
         title: "RESEARCH SCIENTIST",

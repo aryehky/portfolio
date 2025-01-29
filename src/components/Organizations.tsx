@@ -22,7 +22,7 @@ const organizations: Organization[] = [
 const Organizations: React.FC = () => {
   return (
     <div className="space-y-4">
-      <h2 className="text-2xl font-bold mb-6">Organizations</h2>
+      <h2 className="text-3xl font-bold mb-8 text-center">Organizations</h2>
       <div className="grid gap-4">
         {organizations.map((org, index) => (
           <div key={index} className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
