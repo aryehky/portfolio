@@ -2,15 +2,16 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-     "./public/index.html"
+    "./public/index.html"
   ],
   presets: [],
-  darkMode: 'media', // or 'class
+  darkMode: 'media', // or 'class'
   plugins: [],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['ui-monospace', 'SFMono-Regular', 'monospace'],
+        'sans': ['"Times New Roman"', 'Times', 'serif'],
+        'serif': ['"Times New Roman"', 'Times', 'serif'],
       },
     },
     screens: {

@@ -74,11 +74,11 @@ const Overview: React.FC = () => {
       <div className="mb-6 text-gray-700 bg-white">
         <p className="mb-1 text-gray-700 flex items-center">
           <PhoneIcon className="h-5 w-5 mr-2" />
-          520.312.9970
+          520-312-9970
         </p>
         <p className="text-gray-700 flex items-center">
           <EnvelopeIcon className="h-5 w-5 mr-2" />
-          kyky0112@gmail.com
+          kayenat.aryeh@gmail.com
         </p>
       </div>
 

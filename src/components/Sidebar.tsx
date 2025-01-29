@@ -34,7 +34,7 @@ const Sidebar: React.FC = () => {
   ];
 
   return (
-    <div className="w-64 bg-white shadow-lg rounded-lg p-6 sticky top-6">
+    <div className="w-64 bg-white shadow-lg rounded-lg p-6 sticky top-6 font-serif">
       {/* Profile Section */}
       <div className="text-center mb-8">
         <img
@@ -48,7 +48,7 @@ const Sidebar: React.FC = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-3 mb-6">
           <a 
-            href="https://github.com/mollybeach" 
+            href="https://github.com/aryehky" 
             target="_blank" 
             rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
@@ -60,7 +60,7 @@ const Sidebar: React.FC = () => {
             />
           </a>
           <a 
-            href="https://www.linkedin.com" 
+            href="https://www.linkedin.com/in/ky-aryeh" 
             target="_blank" 
             rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
@@ -77,11 +77,11 @@ const Sidebar: React.FC = () => {
         <div className="text-sm text-gray-600 mb-6">
           <p className="mb-1">
             <PhoneIcon className="h-5 w-5 inline mr-2" />
-            520.312.9970
+            520-312-9970
           </p>
           <p>
             <EnvelopeIcon className="h-5 w-5 inline mr-2" />
-            kyky0112@gmail.com
+            kayenat.aryeh@gmail.com
           </p>
         </div>
       </div>

@@ -3,6 +3,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Overview from './Overview';
 import Experience from './Experience';
+import Skills from './Skills';
 import Education from './Education';
 import Projects from './Projects';
 import AcademicAwards from './AcademicAwards';
@@ -15,6 +16,7 @@ const MainComponent: React.FC = () => {
       <Routes>
         <Route path="/" element={<Overview />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/skills" element={<Skills />} />
         <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/awards" element={<AcademicAwards />} />

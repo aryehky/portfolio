@@ -30,13 +30,15 @@ const experiences: ExperienceItem[] = [
         date: "JANUARY 2024 - DECEMBER 2024",
         location: "REMOTE",
         details: [
-          "Designed and deployed decentralized applications and smart contracts, collaborating closely with researchers and product teams to ensure secure, reliable data transactions",
-          "Utilized JavaScript libraries (e.g., ethers.js, web3.js) to integrate front-end interfaces with Solidity-based smart contracts, enabling seamless user interactions with NFT and DeFi functionalities",
-          "Integrated NFT and DeFi protocols, tested across multiple Ethereum test networks, and gained experience with complex data transformations relevant to next-generation biotech pipelines",
-          "Implemented OpenZeppelin standards to deploy IPFS-backed NFTs, ensuring robust security and interoperability within decentralized ecosystems"
+          "Designed and deployed decentralized applications and Solidity-based smart contracts, ensuring robust data integrity in transactions.",
+          "Used JavaScript libraries (web3.js, ethers.js) to connect front-end interfaces with smart contracts, enhancing user engagement with blockchain features.",
+          "Implemented features similar to NFT or DeFi use cases, tested across multiple blockchain test networks to ensure reliability and security.",
+          "Leveraged well-known open-source libraries (e.g., OpenZeppelin) and secure storage (e.g., IPFS) to promote interoperability and safe contract deployment.",
+          "Employed containerization (Docker) and cloud services to streamline deployments of .NET or JavaScript-based microservices for real-time data processing.",
+          "Coordinated daily with researchers and product teams to ensure technical solutions aligned with overall project goals and compliance requirements."
         ],
         projects: [],
-        skills: ["Solidity", "Web3.js", "Ethers.js", "NFT", "DeFi", "OpenZeppelin", "IPFS", "Smart Contracts"]
+        skills: ["Solidity", "Web3.js", "Ethers.js", "NFT", "DeFi", "OpenZeppelin", "IPFS", "Smart Contracts", "Docker"]
       }
     ]
   },
@@ -49,18 +51,15 @@ const experiences: ExperienceItem[] = [
         date: "SEPTEMBER 2022 - SEPTEMBER 2023",
         location: "REMOTE",
         details: [
-          "Built RESTful APIs in Python (Flask) and integrated with databases (PostgreSQL) and caching (Redis, Celery) to enhance throughput and reduce latency by 40%",
-          "Implemented code reviews, followed agile methodologies, and contributed to design patterns ensuring maintainable integration frameworks",
-          "Developed and maintained internal RESTful APIs in Python (Flask) and integrated with MySQL databases to process and query scientific and financial data",
-          "Leveraged AWS services (EC2, S3, RDS) for scalable, secure application deployments",
-          "Implemented CI/CD pipelines and version control best practices, ensuring smooth updates and feature releases",
-          "Built responsive UI components with React.js and integrated them with back-end APIs for data visualization and exploration tools",
-          "Applied OAuth 2.0, SSL/TLS, and other security practices for handling sensitive genomic and health data",
-          "Experience with RAML/OpenAPI for defining APIs and schemas, ensuring consistent and scalable communication layers",
-          "Coordinated with data scientists, geneticists, and medical researchers to understand requirements and prototype features"
+          "Built RESTful APIs using Python (Flask) and integrated with relational databases (e.g., PostgreSQL, MySQL) to handle high-throughput data transactions.",
+          "Migrated a monolithic application to containerized microservices (Docker) on cloud platforms, setting up automated CI/CD pipelines for faster, more reliable deployments.",
+          "Implemented caching (Redis, Celery) and indexing strategies that reduced latency and improved system responsiveness.",
+          "Created interactive dashboards and user interfaces (React.js, Angular) for data visualization and easier stakeholder decision-making.",
+          "Applied OAuth 2.0, SSL/TLS, and best practices for securing sensitive user information.",
+          "Worked closely with cross-functional teams—product owners, data scientists—to refine user stories, conduct code reviews, and ensure maintainable, high-quality code."
         ],
         projects: [],
-        skills: ["Python", "Flask", "PostgreSQL", "Redis", "Celery", "AWS", "React.js", "CI/CD", "OAuth 2.0", "RAML", "OpenAPI"]
+        skills: ["Python", "Flask", "PostgreSQL", "MySQL", "Redis", "Celery", "Docker", "CI/CD", "React.js", "Angular", "OAuth 2.0", "AWS"]
       }
     ]
   },
@@ -78,10 +77,11 @@ const experiences: ExperienceItem[] = [
           "Used microphysiological systems to compare toxicity across multiple CNIs",
           "Examined genetic factors in CNI-induced nephrotoxicity, focusing on CYP3A5 gene variants",
           "Researched TLR7/8 and 4-HNE in immune response within premetastatic lung model",
-          "Explored interaction between Goldenseal and CYP3A enzymes affecting drug metabolism"
+          "Explored interaction between Goldenseal and CYP3A enzymes affecting drug metabolism",
+          "PK/PD"
         ],
         projects: [],
-        skills: ["RNA Sequencing", "Microphysiological Systems", "Drug Metabolism", "Genetic Analysis", "Research Methods"]
+        skills: ["RNA Sequencing", "Microphysiological Systems", "Drug Metabolism", "Genetic Analysis", "PK/PD"]
       }
     ]
   },
